@@ -2,4 +2,4 @@ roots and endpoints: [0.0, 1.0, 5]
 distance traveled: 29.500000000000004
 net change: 29.16666666666667
 bounded area: 5.667721258889713
-bounded area: 13.5
+bounded area: 8.313843876330603
