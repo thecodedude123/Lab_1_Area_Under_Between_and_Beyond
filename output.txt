@@ -1,5 +1,5 @@
-roots and endpoints: [0, 0.001, 1.0010000000000001, 5]
-distance traveled: 29.49999899933334
-net change: 29.166666666666675
+roots and endpoints: [0.0, 1.0000000000000009, 5]
+distance traveled: 29.500000000000004
+net change: 29.16666666666667
 bounded area: 5.667721258889713
 bounded area: 13.5
