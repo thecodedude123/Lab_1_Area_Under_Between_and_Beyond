@@ -3,7 +3,7 @@ from scipy.optimize import fsolve
 import numpy as np
 import math
 
-output = open('Lab_1_Area_Under_Between_And_Beyond.txt','w')
+output = open('Question_1_Output.txt','w')
 function = input("f(x): ")
 funcType = input("function type (sin, cos, tan, sec, csc, cot, asin, acos, atan, asec, acsc, acot, ln, log, exp, sqrt, none): ")
 function = function.replace('^', '**')
@@ -92,9 +92,9 @@ def areaMagnitude(boundsOfIntegration):
     return integral
 
 if mode == "magnitude":
-    output.write("magnitude: " + str(areaMagnitude(critPoints)))
+    output.write("distance traveled: " + str(areaMagnitude(critPoints)))
 elif mode == "net":
-    output.write("net: " + str(areaNet(critPoints)))
+    output.write("net change: " + str(areaNet(critPoints)))
 output.close()
 
 
