@@ -24,7 +24,7 @@ for i in np.arange(a , b, deltaX): # looping over the points to find where the f
             critPoints.append(i) # adding the point to the list
         isNeg = False # sets the value of isNeg since f(i) > 0
 for i in range(len(critPoints)): # looping through the points
-    critPoints[i] = fsolve(lambda x: f(x), [critPoints[i]])[0] # using fsolve(which uses newton's method) to find the roots of the function
+    critPoints[i] = np.around(fsolve(lambda x: f(x), [critPoints[i]])[0], 10, out=None) # finding more precise roots of function
 
 critPoints.append(a) # making sure the upper bound of integration is included
 critPoints.append(b) # making sure the lower bound of integration is included
