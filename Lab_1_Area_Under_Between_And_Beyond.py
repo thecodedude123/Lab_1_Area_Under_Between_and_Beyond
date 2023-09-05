@@ -56,7 +56,7 @@ def areaBounded(boundsOfIntegration, functions): #makes a function to find the a
 output.write("\ndistance traveled: " + str(areaMagnitude(critPoints))) # outputs the distance traveled
 output.write("\nnet change: " + str(areaNet([a,b])))  # outputs the net change
 output.write("\nbounded area: " + str(areaBounded([0,math.pi],[lambda x: math.sin(x)/x,lambda x: 0.5*x-2]))) #outputs the bounded area in question 3 
-output.write("\nbounded area: " + str(areaBounded([-3,0],[lambda x: math.sqrt(x**2*(x+3)),lambda x: -math.sqrt(x**2*(x+3))]))) #outputs the area in the loop for question 4 
+output.write("\nloop area: " + str(areaBounded([-3,0],[lambda x: math.sqrt(x**2*(x+3)),lambda x: -math.sqrt(x**2*(x+3))]))) #outputs the area in the loop for question 4 
 output.close() # stops writing to the file
 
 
