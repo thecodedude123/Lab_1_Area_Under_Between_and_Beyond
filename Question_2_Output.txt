@@ -1,2 +1,0 @@
-roots and endpoints: [0.0, 0.001, 1.0010000000000001, 5.0]
-distance traveled: 29.49999899933334
